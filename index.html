@@ -5,54 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    h3{
+        background-color: blueviolet;
+        height: 30px;
+        width: 700px;
+    }
+
+    span{
+        background-color: rgb(255, 0, 0);
+        height: 30px;
+        width: 700px;
+        font-size: x-large;
+    }
+
+    button{
+        height: 40px;
+        width: 140px;
+    }
+</style>
+
 <body>
-             <!--ATTRIBUTES-->
 
-    <!--Global Attributes-->             
-    <nav>
-        <h1 style="text-align: center;color: rgb(145, 26, 156);">Welcome to Gyan Fitness Studio!</h1>
-        <hr>
-    </nav>
+    <!--Elements-->
 
-    <header>
-        <h3 style="font-size: x-large;font-weight: 800;">In this Page,You can get the <span style="color: cornflowerblue;font-size: larger;">Studio</span> Opening and Closing Time</h3>
-    </header>
+    <!--Block level Elements-->
+        <!--It'll always displayed in the next line only-->
+        <h1>Friendly Text Messages!...</h1>
+        
+        <h3>Friend: Hey!Hi..</h3>
+        <h3>Me: Mm.Tell me!What you want?</h3>
 
-    <br>
+    <!--Inline Elements-->
+        <!--It'll displayed next to the previous Inline element-->
+        <span>Friend: I need ₹100 send me da?</span>
+        <span>Me: Wait a minute.I'll Gpay.</span>
 
-    <!--This is the example for style Attribute-->
-    <details style="font-size: x-large;text-align:start;" tabindex="1">
-        <ul>
-            <h4 style="font-size: x-large;color: crimson;">Morning!</h4>
-            <h3>Opening Time : 7:40 AM</h3>
-            <h3>Closing Time : 11:40 AM</h3>
+        <h3>Friend: Where are you da?</h3>
+        <h3>Me: I'm in the Gym!</h3>
+        <span>Friend: Ok!Send me the Gym pic.</span>
+        <span>Me: Here it is...😊!</span>
+        <br>
+        <br>
 
-            <h4 style="font-size: x-large;color: crimson;">Evening!</h4>
-            <h3>Opening Time : 5:30 PM</h3>
-            <h3>Closing Time : 10:30 PM</h3>
-        </ul>
-    </details>
-    <br>
-
-    <hr>
-    <!--Example for the editablecontent-->
-    <h2>Playground!</h2>
-    <h2 style="color-scheme: inherit;color: rgb(9, 100, 15);">Here,You can Alter you Fees structure!😊</h2>
-    <h1 style="color: red;">🚨For this month you have to pay ₹<span contenteditable="true" tabindex="2">10000</span></h1>
-
-
-    <!--Example for the title tag-->
-
-    <h3 title="Eventhough you change the amount!It won't afftect the original fees structure🤣" tabindex="3" accesskey="s"><span style="color: rgb(50, 84, 177);font-size: x-large;" >Hover Over me</span> to reveal the secret!</h3>
+    <!--Inline-block elements -->
+        <!--Behave like inline element but,we can change the height and width of the element-->
     
+        <img src="gym.webp" alt="" height="300px" width="500px">
+        <img src="gym.webp" alt="" height="300px" width="500px">
 
-    <!--Local Attributes-->  
-    <br>
-    <hr>
+        <!-- <img> tag is a example to the inline-block element cz,displaying in the same line 
+         but i changed the height and width-->
 
-    <h2 style="color: rgb(42, 89, 154);text-align: center;">You can take a look on the Gym in Below Picture!</h2>
-    
-    <img src="gym.webp" alt="Sample image of our Gym" height="400px" width="700px" style="margin-left: 500px;">
+         <!-- One more example is <button> tag-->
 
+        <h3>Me: Choose any button!</h3>
+        <button style="background-color: green;">Img Received!</button>
+        <button style="background-color: rgb(128, 0, 21);">Img not Received!</button>
 </body>
 </html>
