@@ -12,23 +12,30 @@
 
     <form action="forms.html">
         <fieldset>
+
+            <!--autofocus - it's used to make a particular input field as selected by default
+
             <label for="">Name : </label>
-            <input type="text" required minlength="4" maxlength="20">
+            <input type="text" required minlength="4" maxlength="20" value="SRIKANTH K" readonly autofocus>
             <br><br>
 
+            <!-- placeholder - is used to give a temporary hint to the user-->
             <label for="">Password : </label>
-            <input type="password" minlength="8" maxlength="16" required>
+            <input type="password" minlength="8" maxlength="16" placeholder="Enter Password" required>
             <br><br>
 
             <label for="">Enter Your Age : </label>
             <input type="number" min="18" max="50" required>
+            <br><br>
 
             <label for="">E-Mail : </label>
             <input type="email" required>
             <br><br>
 
+            <!--required - it makes the input field as mandatory-->
+
             <label for="">Mobile Number : </label>
-            <input type="tel" maxlength="13" required>
+            <input type="tel" maxlength="13" placeholder="Enter Mobile Number" required>
             <br><br>
 
             <label for="">Gender : </label>
@@ -40,11 +47,15 @@
             </select>
             <br><br>
 
+
+            <!--selected - it select the particular option by default-->
+
             <label for="">Prefered Location : </label>
             <select>
                 <option value=""></option>
+                
                 <optgroup label="TamilNadu">
-                    <option value="">Chennai</option>
+                    <option value="" selected>Chennai</option>
                     <option value="">Coimbature</option>
                     <option value="">Trichy</option>
                 </optgroup>
@@ -61,11 +72,13 @@
             </select>
             <br><br>
 
+            <!-- checked - select the particular input as selected -->
+
             <label for="">Languages Known : </label>&nbsp;&nbsp;
             <label for="">Tamil</label>
-            <input type="checkbox">
+            <input type="checkbox" checked>
             <label for="">English</label>
-            <input type="checkbox">
+            <input type="checkbox" checked>
             <label for="">Hindi</label>
             <input type="checkbox">
             <label for="">Malaiyalam</label>
@@ -74,7 +87,7 @@
 
             <label for="">Eligible To drive : </label>&nbsp;&nbsp;
             <label for="">Yes</label>
-            <input type="radio">
+            <input type="radio" checked>
             <label for="">No</label>
             <input type="radio">
             <br><br>
@@ -87,8 +100,9 @@
             <input type="time">
             <br><br>
 
+            <!--disabled - it doesn't submit the data-->
             <label for="">Expected Salary :</label>
-            <input type="number" maxlength="7">
+            <input type="number" maxlength="7" value="₹200000" disabled> 
             <br><br>
 
             <label for="">Mention Precise Details : </label>
@@ -103,12 +117,17 @@
             <input type="week">
             <br><br>
 
+            <!--accept - it's used to specify what type of files that the user can select-->
+
+
+            <!-- multiple - it's used to allows the user can upload multiple file otherwise, only one they can upload-->
+
             <label for="">Upload your Photo : </label>
-            <input type="file" required>
+            <input type="file" required accept=".jpg,.png" multiple>
             <br><br>
 
             <label for="">Search for Your Role : </label>
-            <input type="search">
+            <input type="search" value="Java FullStack Developer">
             <br><br>
 
             <label for="">Enter Your LinkedIn Account URL : </label>
@@ -119,8 +138,11 @@
             <input type="color">
             <br><br>
 
+
+            <!--step - it's used to give the specific interval on the slider-->
+
             <label for="">Select your Favourite Number : </label>
-            <input type="range">
+            <input type="range" step="30" min="0" max="100">
             <br><br>
 
             <input type="submit">
