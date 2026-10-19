@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Qspiders Requirement Confirmation Form</h1>
+
+    <form action="forms.html">
+        <fieldset>
+            <label for="">Name : </label>
+            <input type="text" required minlength="4" maxlength="20">
+            <br><br>
+
+            <label for="">Password : </label>
+            <input type="password" minlength="8" maxlength="16" required>
+            <br><br>
+
+            <label for="">Enter Your Age : </label>
+            <input type="number" min="18" max="50" required>
+
+            <label for="">E-Mail : </label>
+            <input type="email" required>
+            <br><br>
+
+            <label for="">Mobile Number : </label>
+            <input type="tel" maxlength="13" required>
+            <br><br>
+
+            <label for="">Gender : </label>
+            <select>
+                <option value=""></option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Others</option>
+            </select>
+            <br><br>
+
+            <label for="">Prefered Location : </label>
+            <select>
+                <option value=""></option>
+                <optgroup label="TamilNadu">
+                    <option value="">Chennai</option>
+                    <option value="">Coimbature</option>
+                    <option value="">Trichy</option>
+                </optgroup>
+                <optgroup label="Hydrabad">
+                    <option value="">Silon</option>
+                    <option value="">Mysore</option>
+                    <option value="">Noida</option>
+                </optgroup>
+                <optgroup label="Bengaluru">
+                    <option value="">Kunsa</option>
+                    <option value="">Kilapur</option>
+                    <option value="">Salio</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <label for="">Languages Known : </label>&nbsp;&nbsp;
+            <label for="">Tamil</label>
+            <input type="checkbox">
+            <label for="">English</label>
+            <input type="checkbox">
+            <label for="">Hindi</label>
+            <input type="checkbox">
+            <label for="">Malaiyalam</label>
+            <input type="checkbox">
+            <br><br>
+
+            <label for="">Eligible To drive : </label>&nbsp;&nbsp;
+            <label for="">Yes</label>
+            <input type="radio">
+            <label for="">No</label>
+            <input type="radio">
+            <br><br>
+
+            <label for="">Prefered Joining Date :</label>
+            <input type="date">
+            <br><br>
+
+            <label for="">Check In Time :</label>
+            <input type="time">
+            <br><br>
+
+            <label for="">Expected Salary :</label>
+            <input type="number" maxlength="7">
+            <br><br>
+
+            <label for="">Mention Precise Details : </label>
+            <input type="datetime-local" min="2026-11-01T10:00" max="2026-12-12-01T10:00">
+            <br><br>
+
+            <label for="">Check Out Month :</label>
+            <input type="month" min="2027-02" max="2027-05">
+            <br><br>
+
+            <label for="">Approximate Checkout Week :</label>
+            <input type="week">
+            <br><br>
+
+            <label for="">Upload your Photo : </label>
+            <input type="file" required>
+            <br><br>
+
+            <label for="">Search for Your Role : </label>
+            <input type="search">
+            <br><br>
+
+            <label for="">Enter Your LinkedIn Account URL : </label>
+            <input type="url" required>
+            <br><br>
+
+            <label for="">Choose Your Favourite Color : </label>
+            <input type="color">
+            <br><br>
+
+            <label for="">Select your Favourite Number : </label>
+            <input type="range">
+            <br><br>
+
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
