@@ -10,22 +10,22 @@
 <body>
     <h1>Qspiders Requirement Confirmation Form</h1>
 
-    <form action="forms.html">
+    <form action="forms.html" method="get">
         <fieldset>
 
-            <!--autofocus - it's used to make a particular input field as selected by default
+            <!--autofocus - it's used to make a particular input field as selected by default -->
 
-            <label for="">Name : </label>
-            <input type="text" required minlength="4" maxlength="20" value="SRIKANTH K" readonly autofocus>
+            <label for="" tabindex="1" accesskey="k" title="Name" contenteditable="true">Name : </label>
+            <input type="text" required minlength="4" maxlength="20" name="FullName" value="SRIKANTH K" readonly autofocus>
             <br><br>
 
             <!-- placeholder - is used to give a temporary hint to the user-->
             <label for="">Password : </label>
-            <input type="password" minlength="8" maxlength="16" placeholder="Enter Password" required>
+            <input type="password" minlength="8" maxlength="16" name="Password" placeholder="Enter Password" required>
             <br><br>
 
             <label for="">Enter Your Age : </label>
-            <input type="number" min="18" max="50" required>
+            <input type="number" min="18" max="50" name="age" required>
             <br><br>
 
             <label for="">E-Mail : </label>
@@ -39,11 +39,11 @@
             <br><br>
 
             <label for="">Gender : </label>
-            <select>
+            <select name="Gender">
                 <option value=""></option>
-                <option value="">Male</option>
-                <option value="">Female</option>
-                <option value="">Others</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
             </select>
             <br><br>
 
@@ -51,7 +51,7 @@
             <!--selected - it select the particular option by default-->
 
             <label for="">Prefered Location : </label>
-            <select>
+            <select >
                 <option value=""></option>
                 
                 <optgroup label="TamilNadu">
@@ -75,14 +75,14 @@
             <!-- checked - select the particular input as selected -->
 
             <label for="">Languages Known : </label>&nbsp;&nbsp;
-            <label for="">Tamil</label>
-            <input type="checkbox" checked>
+            <label for="" >Tamil</label>
+            <input type="checkbox" checked name="Languages" value="Tamil">
             <label for="">English</label>
-            <input type="checkbox" checked>
+            <input type="checkbox" checked name="Languages" value="English">
             <label for="">Hindi</label>
-            <input type="checkbox">
+            <input type="checkbox" name="Languages" value="Hindi">
             <label for="">Malaiyalam</label>
-            <input type="checkbox">
+            <input type="checkbox" name="Languages"  value="Malaiyalam">
             <br><br>
 
             <label for="">Eligible To drive : </label>&nbsp;&nbsp;
@@ -123,7 +123,7 @@
             <!-- multiple - it's used to allows the user can upload multiple file otherwise, only one they can upload-->
 
             <label for="">Upload your Photo : </label>
-            <input type="file" required accept=".jpg,.png" multiple>
+            <input type="file" required accept=".jpg,.png" name="Photo" multiple>
             <br><br>
 
             <label for="">Search for Your Role : </label>
@@ -140,9 +140,8 @@
 
 
             <!--step - it's used to give the specific interval on the slider-->
-
             <label for="">Select your Favourite Number : </label>
-            <input type="range" step="30" min="0" max="100">
+            <input type="range" step="25" min="0" max="100">
             <br><br>
 
             <input type="submit">
