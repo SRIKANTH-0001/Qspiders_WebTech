@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* id selector is used to select the element uniquely and takes the value from id attribute '#' Symbol */
+
+#beans{
+    color: green;
+    font-style: oblique;
+}
+
+/* class selector is used to target the multiple elements and takes the value from class attribute using '.' symbol */
+
+.veg{
+    color: chocolate;
+    font-weight: 600;
+}
+
+/* tag name selector is used to target the tags which are being as given tag name using tagName */
+
+span{
+    background-color: black;
+    color: wheat;
+    font-size: x-large;
+}
+
+/* Grouping selector is used to target multiple tags using ',' symbol */
+
+h1,p{
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+h3{
+    font-size: x-large;
+    color: green;
+    font-style: oblique;
+}
+
+h2{
+    color: chocolate;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 101 px;
+}

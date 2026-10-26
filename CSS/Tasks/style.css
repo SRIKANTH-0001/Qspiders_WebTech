@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+.txt{
+    background-color: purple;
+    color: rgb(242, 255, 0);
+    margin-bottom: 30px;
+}
+#city{
+    margin-bottom: 20px;
+}
+
+#cap{
+    background-color: aqua;
+    color: red;
+}
+
+#large{
+    background-color: black;
+    color: white;
+}
+
+#coast{
+    background-color: red;
+    color: white;
+}
+
+#bengal{
+    background-color: blue;
+    color: aqua;
+    font-size: x-large;
+}
