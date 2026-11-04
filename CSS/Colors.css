@@ -1,0 +1,51 @@
+div{
+    height: 35px;
+    width: 80px;
+}
+
+/*1. Named Colors */
+#Suresh{
+    background-color: pink;
+}
+
+#Madhesh{
+    background-color: yellow;
+}
+
+/*2. HexaDecimal Colors */
+#Ganesh{
+    background-color: #7b0d94;
+}
+
+#Buvanesh{
+    background-color: #c70d0d;
+}
+
+#Kamalesh{
+    background-color: #03e054;
+}
+
+/* 3.RGB Colors */
+#tree{
+    background-color:rgb(11, 113, 51);
+}
+#sky{
+    background-color:rgb(8, 113, 183);
+}
+
+/* 3.1 RGB with Alpha -- rgba(red, green, blue, alpha)*/
+#sand{
+    background-color: rgba(190, 131, 12,0.9);
+}
+
+/* 4.HSL Colors -- hsl(hue, saturation, lightness)*/
+
+#road{
+    background-color: hsl(242, 35%, 16%);
+}
+
+/* 4.1 HSL with Alpha -- hsla(hue, saturation, lightness, alpha)*/
+
+#smoke{
+    background-color: hsla(0, 6%, 23%, 0.8);
+}
