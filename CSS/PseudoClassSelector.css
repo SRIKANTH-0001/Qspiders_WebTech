@@ -1,0 +1,66 @@
+a link{
+    color: rgb(0, 0, 0);
+}
+
+a h1:active{
+    color: green;
+}
+
+a:visited{
+    color: rgb(223, 2, 2);
+}   
+
+/* a:hover{
+    background-color: white;
+    color: black;
+}
+button{
+    color: aqua;
+    background-color: white;
+}
+
+button:hover{
+    color: blue;
+}
+
+input:focus{
+    accent-color: yellow;
+}  */
+
+div{
+    background-color: lightcyan;
+    height: 400px;
+    width: 400px;
+}
+
+
+div h1:first-child{
+    color: darkgoldenrod;
+}
+
+div h1:last-child{
+    color: blue;
+}
+
+div h1:nth-child(3){
+    color: green;
+} 
+
+
+div h1:first-of-type{
+    color: tomato;
+}
+
+div h2:last-of-type{
+    color: slateblue;
+}
+
+div h3:nth-of-type(2){
+    color: violet;
+    
+}
+
+#in:active{
+    background-color: yellow;
+
+}
