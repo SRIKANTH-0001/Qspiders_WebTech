@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: yellow;
+    width: 700px;
+    height: 1020px;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.amazon, .flipkart, .meesho, .myntra {
+    background-color: red;
+    width: 235px;
+    height: 235px;
+    margin-left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 235px;
+    color: white;
+}
+
+.amazon {
+    border-radius: 50%;
+    top: 10px;
+}
+
+.flipkart {
+    border-radius: 85px 0px 85px 0px;
+    top: 270px;
+}
+
+.meesho {
+    border-radius: 50%;
+    top: 530px;
+}
+
+.myntra {
+    border-radius: 0px 85px 0px 85px;
+    top: 790px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.amazon:hover,
+.flipkart:hover,
+.meesho:hover,
+.myntra:hover {
+    background-color: blue;
+}
