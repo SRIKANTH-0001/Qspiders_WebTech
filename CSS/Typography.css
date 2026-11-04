@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+@font-face {
+    font-family: PlayWrite;
+    src: url(./assets/PlaywriteARGuides-Regular.ttf);
+}
+
+/* 1.font-family in Css */
+
+    /* 1.1 Default font */
+    #head{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* 1.2 External font - use @import url() */
+    #desc{
+        font-family: Caesar Dressing;
+        font-size: x-large;
+    }
+
+    /* 1.3 Downloaded font - use @font-face */
+    #list{
+        font-family: PlayWrite;
+    }
+
+.tourist{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+}
